@@ -1,0 +1,29 @@
+body .container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.gambar img {
+  width: 100%;
+  max-width: 1366px; /* Set a maximum width for larger screens */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .gambar img {
+    max-width: 1000px; /* Adjust max-width for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .gambar img {
+    max-width: 750px; /* Adjust max-width for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .gambar img {
+    max-width: 400px; /* Adjust max-width for mobile phones */
+  }
+}
